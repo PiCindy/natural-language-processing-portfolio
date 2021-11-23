@@ -1,0 +1,129 @@
+Classification results of testing SGDClassifier on categories.
+
+Accuracy: 0.8333333333333334
+Confusion matrix:
+ [[9 0 0 0 0 0]
+ [0 9 0 0 0 0]
+ [0 0 8 1 0 0]
+ [0 0 1 8 0 0]
+ [1 0 1 1 6 0]
+ [0 0 0 4 0 5]]
+Classification report:
+                precision    recall  f1-score   support
+
+    architect       0.90      1.00      0.95         9
+mathematician       1.00      1.00      1.00         9
+      painter       0.80      0.89      0.84         9
+   politician       0.57      0.89      0.70         9
+       singer       1.00      0.67      0.80         9
+       writer       1.00      0.56      0.71         9
+
+     accuracy                           0.83        54
+    macro avg       0.88      0.83      0.83        54
+ weighted avg       0.88      0.83      0.83        54
+
+
+
+Classification results of testing SGDClassifier on types.
+
+Accuracy: 0.8888888888888888
+Confusion matrix:
+ [[22  5]
+ [ 1 26]]
+Classification report:
+               precision    recall  f1-score   support
+
+           A       0.96      0.81      0.88        27
+           Z       0.84      0.96      0.90        27
+
+    accuracy                           0.89        54
+   macro avg       0.90      0.89      0.89        54
+weighted avg       0.90      0.89      0.89        54
+
+
+
+Classification results of testing SVC on categories.
+
+Accuracy: 0.7592592592592593
+Confusion matrix:
+ [[7 0 2 0 0 0]
+ [0 7 0 0 0 2]
+ [0 0 8 0 0 1]
+ [0 0 1 6 0 2]
+ [1 0 0 0 7 1]
+ [0 0 0 3 0 6]]
+Classification report:
+                precision    recall  f1-score   support
+
+    architect       0.88      0.78      0.82         9
+mathematician       1.00      0.78      0.88         9
+      painter       0.73      0.89      0.80         9
+   politician       0.67      0.67      0.67         9
+       singer       1.00      0.78      0.88         9
+       writer       0.50      0.67      0.57         9
+
+     accuracy                           0.76        54
+    macro avg       0.79      0.76      0.77        54
+ weighted avg       0.79      0.76      0.77        54
+
+
+
+Classification results of testing SVC on types.
+
+Accuracy: 0.8333333333333334
+Confusion matrix:
+ [[19  8]
+ [ 1 26]]
+Classification report:
+               precision    recall  f1-score   support
+
+           A       0.95      0.70      0.81        27
+           Z       0.76      0.96      0.85        27
+
+    accuracy                           0.83        54
+   macro avg       0.86      0.83      0.83        54
+weighted avg       0.86      0.83      0.83        54
+
+
+Classification results of testing MLPClassifier on categories.
+
+Accuracy: 0.3888888888888889
+Confusion matrix:
+ [[6 3 0 0 0 0]
+ [0 9 0 0 0 0]
+ [0 4 3 2 0 0]
+ [5 3 0 1 0 0]
+ [0 6 1 1 1 0]
+ [0 5 0 3 0 1]]
+Classification report:
+                precision    recall  f1-score   support
+
+    architect       0.55      0.67      0.60         9
+mathematician       0.30      1.00      0.46         9
+      painter       0.75      0.33      0.46         9
+   politician       0.14      0.11      0.12         9
+       singer       1.00      0.11      0.20         9
+       writer       1.00      0.11      0.20         9
+
+     accuracy                           0.39        54
+    macro avg       0.62      0.39      0.34        54
+ weighted avg       0.62      0.39      0.34        54
+
+
+
+Classification results of testing MLPClassifier on types.
+
+Accuracy: 0.8518518518518519
+Confusion matrix:
+ [[20  7]
+ [ 1 26]]
+Classification report:
+               precision    recall  f1-score   support
+
+           A       0.95      0.74      0.83        27
+           Z       0.79      0.96      0.87        27
+
+    accuracy                           0.85        54
+   macro avg       0.87      0.85      0.85        54
+weighted avg       0.87      0.85      0.85        54
+
